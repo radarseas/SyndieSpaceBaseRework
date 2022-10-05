@@ -93,12 +93,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/telecomms)
 "aq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/warning_stripes/north,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/ruin/unpowered/syndicate_space_base/engineering)
+/obj/structure/sign/poster/contraband/random,
+/turf/simulated/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "ar" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -217,6 +214,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
+"bg" = (
+/obj/item/toy/carpplushie,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "bi" = (
 /obj/structure/dresser,
 /turf/simulated/floor/plasteel{
@@ -263,6 +265,13 @@
 /obj/structure/sign/poster/contraband/random,
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/chemistry)
+"bN" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/arcade,
+/area/ruin/unpowered/syndicate_space_base/engineering)
 "bO" = (
 /obj/structure/rack,
 /obj/item/rpd{
@@ -651,6 +660,11 @@
 	icon_state = "darkred"
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
+"dY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random_spawners/grille_maybe,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "ec" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/firecloset/full,
@@ -659,8 +673,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "ei" = (
-/obj/structure/sign/poster/official/fruit_bowl,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random_spawners/blood_maybe,
+/turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "ek" = (
 /obj/structure/sign/poster/contraband/random,
@@ -1101,6 +1116,7 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "gY" = (
+/obj/machinery/vending/coffee/free,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -1222,6 +1238,10 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/chemistry)
+"hN" = (
+/obj/item/twohanded/toy/chainsaw,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "hO" = (
 /obj/item/stack/sheet/mineral/plastitanium{
 	amount = 30;
@@ -1416,6 +1436,10 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
+"iG" = (
+/obj/machinery/door/airlock/hatch/syndicate,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "iH" = (
 /obj/machinery/atmospherics/unary/thermomachine/heater,
 /turf/simulated/floor/plating,
@@ -1453,12 +1477,11 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "iZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/warning_stripes/west,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/ruin/unpowered/syndicate_space_base/main)
+/obj/structure/grille,
+/obj/structure/window/full/plastitanium,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/engineering)
 "je" = (
 /obj/structure/window/reinforced,
 /obj/item/clothing/shoes/magboots/syndie{
@@ -1590,12 +1613,10 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "jG" = (
-/obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "cmo"
-	},
-/area/ruin/unpowered/syndicate_space_base/dormitories)
+/obj/machinery/door/airlock/hatch/syndicate,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "jH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille,
@@ -1603,8 +1624,7 @@
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "jI" = (
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 8
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
@@ -1666,6 +1686,10 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
+/area/ruin/unpowered/syndicate_space_base/bar)
+"jX" = (
+/obj/structure/grille/broken,
+/turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "ke" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1840,6 +1864,10 @@
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/medbay)
+"lk" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "lm" = (
 /obj/machinery/atmospherics/unary/passive_vent,
 /turf/simulated/floor/engine/air,
@@ -2102,13 +2130,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "nf" = (
-/obj/item/clothing/suit/chef,
-/obj/item/clothing/head/chefhat,
-/obj/structure/table,
-/turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
-/area/ruin/unpowered/syndicate_space_base/bar)
+/obj/structure/grille/broken,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "nj" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
@@ -2371,6 +2395,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
+"ot" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/cigarette/syndicate/free,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/bar)
 "ow" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random_spawners/grille_maybe,
@@ -2393,6 +2424,12 @@
 	icon_state = "darkblue"
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
+"oD" = (
+/obj/machinery/door/airlock/hatch/syndicate,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/bar)
 "oF" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -2410,6 +2447,11 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
+"oI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "oO" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2932,10 +2974,6 @@
 "sC" = (
 /obj/effect/decal/cleanable/confetti,
 /obj/machinery/computer/arcade,
-/obj/machinery/light{
-	dir = 1;
-	on = 1
-	},
 /turf/simulated/floor/carpet/arcade,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "sD" = (
@@ -2986,6 +3024,9 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
+"sV" = (
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "td" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3318,6 +3359,15 @@
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
+"uV" = (
+/obj/structure/grille/broken,
+/obj/effect/spawner/random_spawners/blood_maybe,
+/obj/effect/spawner/random_spawners/cobweb_right_rare,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "uX" = (
 /obj/machinery/door/airlock/hatch/syndicate,
 /obj/structure/cable{
@@ -3580,10 +3630,10 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/cargo)
 "wg" = (
-/obj/machinery/light{
+/obj/structure/closet/l3closet/virology,
+/obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/closet/l3closet/virology,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitegreen"
@@ -3861,7 +3911,6 @@
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "xB" = (
 /obj/item/storage/box/monkeycubes/syndicate,
-/obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -3889,10 +3938,10 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "xI" = (
-/obj/machinery/atmospherics/binary/valve,
-/obj/effect/decal/warning_stripes/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random_spawners/blood_maybe,
 /turf/simulated/floor/plating,
-/area/ruin/unpowered/syndicate_space_base/engineering)
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "xN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4069,10 +4118,10 @@
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/spray/cleaner,
-/obj/machinery/light{
+/obj/item/clothing/glasses/science,
+/obj/machinery/light/small{
 	dir = 4
 	},
-/obj/item/clothing/glasses/science,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whitegreen"
@@ -4185,9 +4234,17 @@
 	icon_state = "grimy"
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
+"zT" = (
+/obj/structure/grille/broken,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "zW" = (
 /obj/structure/window/full/plastitanium,
 /obj/structure/grille,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "zX" = (
@@ -4230,11 +4287,11 @@
 /area/ruin/unpowered/syndicate_space_base/bar)
 "As" = (
 /obj/effect/decal/cleanable/greenglow,
-/obj/effect/decal/cleanable/cobweb,
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/spawner/random_spawners/cobweb_left_rare,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
 "Ax" = (
@@ -4332,7 +4389,8 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/medbay)
 "AU" = (
-/obj/machinery/vending/cigarette/syndicate/free,
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/shaker,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -4495,14 +4553,8 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "Cj" = (
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 3
-	},
-/obj/item/kitchen/rollingpin,
 /obj/structure/table,
+/obj/machinery/processor,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -4662,9 +4714,10 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "DE" = (
-/obj/structure/sign/poster/contraband/random,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/main)
+/obj/machinery/door/airlock/hatch/syndicate,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "DG" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/cargo)
@@ -4861,6 +4914,9 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "EU" = (
 /obj/effect/spawner/random_spawners/blood_often,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/carpet/arcade,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "EW" = (
@@ -5438,9 +5494,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/cargo)
 "Iw" = (
-/obj/structure/sign/poster/official/air2,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/bar)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "IA" = (
 /obj/machinery/vending/boozeomat,
 /turf/simulated/floor/plasteel{
@@ -5615,6 +5671,9 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
+"JY" = (
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "Kf" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -5700,6 +5759,10 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
+"Kr" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "Kt" = (
 /obj/machinery/bodyscanner,
 /obj/machinery/light{
@@ -5722,8 +5785,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "Kw" = (
-/obj/machinery/processor,
-/obj/structure/table,
+/obj/machinery/vending/dinnerware,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -5763,7 +5825,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "darkred"
@@ -5823,7 +5884,9 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "Le" = (
-/obj/machinery/vending/coffee/free,
+/obj/structure/table,
+/obj/item/clothing/suit/chef,
+/obj/item/clothing/head/chefhat,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -5864,11 +5927,8 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "Lj" = (
-/obj/item/reagent_containers/food/drinks/shaker,
-/obj/structure/table,
-/turf/simulated/floor/plasteel{
-	icon_state = "cafeteria"
-	},
+/obj/effect/spawner/random_spawners/grille_maybe,
+/turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Lk" = (
 /obj/machinery/computer/syndicate_depot/teleporter{
@@ -6858,6 +6918,10 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
+"Si" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "Sn" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plasteel{
@@ -6942,7 +7006,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "SU" = (
-/obj/machinery/vending/dinnerware,
+/obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7344,6 +7408,13 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
+"VS" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "VW" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -7352,6 +7423,9 @@
 	tag = ""
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7411,9 +7485,6 @@
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/medbay)
 "WC" = (
-/obj/item/kitchen/knife{
-	pixel_x = 6
-	},
 /obj/item/storage/box/donkpockets{
 	pixel_x = -2;
 	pixel_y = 6
@@ -8181,26 +8252,26 @@ AV
 AV
 AV
 AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
+nj
+nj
+nj
+nj
+nj
+nj
+nj
+nj
+nj
+nj
+HZ
+HZ
+aq
+HZ
+HZ
+HZ
+HZ
+HZ
+HZ
+HZ
 AV
 AV
 AV
@@ -8243,26 +8314,26 @@ AV
 AV
 AV
 AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
+nj
+bg
+hN
+nj
+lk
+zT
+xI
+Iw
+sV
+iG
+JY
+Si
+jX
+VS
+ei
+JY
+Lj
+Kr
+JY
+HZ
 AV
 AV
 AV
@@ -8303,29 +8374,29 @@ AV
 AV
 AV
 AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-HZ
-HZ
-HZ
-HZ
-Iw
-HZ
-ei
+fF
+fF
+nj
+nj
+fv
+nj
+oI
 HZ
 HZ
 HZ
 HZ
 HZ
 HZ
-AV
-AV
-AV
+HZ
+HZ
+oD
+HZ
+HZ
+HZ
+HZ
+dY
+HZ
+HZ
 AV
 AV
 AV
@@ -8365,13 +8436,13 @@ AV
 AV
 AV
 AV
-AV
-AV
-AV
-AV
-AV
-AV
-AV
+fF
+xu
+jG
+nf
+Iw
+sV
+nf
 HZ
 pp
 Dy
@@ -8385,9 +8456,9 @@ lr
 HZ
 fk
 HZ
-AV
-AV
-AV
+uV
+Si
+aq
 AV
 AV
 AV
@@ -8428,10 +8499,10 @@ fF
 fF
 fF
 mu
-fF
+zq
 nj
 nj
-fv
+iG
 nj
 nj
 nj
@@ -8447,7 +8518,7 @@ Il
 HZ
 jO
 HZ
-lf
+HZ
 DE
 gD
 gD
@@ -8696,7 +8767,7 @@ Fs
 SW
 HZ
 ec
-iZ
+ma
 Wz
 eV
 RD
@@ -8749,7 +8820,7 @@ Ji
 xr
 zS
 GK
-Ll
+ot
 ui
 zj
 ku
@@ -9061,7 +9132,7 @@ zG
 iv
 Tw
 AU
-Lj
+uJ
 uI
 uJ
 uJ
@@ -9123,7 +9194,7 @@ PK
 LK
 Ng
 SU
-nf
+uJ
 uJ
 uJ
 uI
@@ -9293,7 +9364,7 @@ Kx
 gh
 lw
 RN
-Em
+iZ
 tL
 He
 Pq
@@ -9355,7 +9426,7 @@ AB
 Gz
 Gz
 Jm
-Em
+iZ
 AJ
 CG
 Gz
@@ -9417,7 +9488,7 @@ hO
 UK
 uF
 KS
-Em
+iZ
 uz
 nI
 CG
@@ -9476,7 +9547,7 @@ Tl
 nU
 Em
 Em
-Em
+iZ
 Hv
 Em
 Bk
@@ -9596,7 +9667,7 @@ AV
 fF
 HE
 Df
-jG
+Df
 lT
 MA
 Em
@@ -10032,7 +10103,7 @@ AV
 Em
 qF
 Lg
-aq
+ke
 ET
 je
 en
@@ -10347,7 +10418,7 @@ Xa
 id
 XQ
 rW
-xI
+cE
 Bt
 vY
 pY
@@ -10606,7 +10677,7 @@ Em
 Em
 Em
 Jx
-Yb
+bN
 Gs
 yE
 Yz

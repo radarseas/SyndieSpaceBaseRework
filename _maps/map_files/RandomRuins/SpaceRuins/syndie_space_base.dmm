@@ -1731,13 +1731,13 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "kk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	tag = ""
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/machinery/vending/cigarette/syndicate/free,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -2425,22 +2425,13 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "ot" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	tag = ""
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
-/area/ruin/unpowered/syndicate_space_base/main)
-"ow" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random_spawners/grille_maybe,
+/obj/effect/decal/cleanable/greenglow,
 /turf/simulated/floor/plating,
-/area/ruin/unpowered/syndicate_space_base/chemistry)
+/area/ruin/unpowered/syndicate_space_base/bar)
+"ow" = (
+/obj/effect/spawner/random_spawners/blood_maybe,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/bar)
 "oA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -3535,9 +3526,17 @@
 /turf/simulated/floor/carpet/arcade,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "vC" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
-/turf/simulated/floor/plating,
-/area/ruin/unpowered/syndicate_space_base/bar)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/vending/cigarette/syndicate/free,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/main)
 "vE" = (
 /obj/machinery/atmospherics/binary/volume_pump{
 	dir = 1
@@ -4832,10 +4831,6 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
-"Ew" = (
-/obj/effect/decal/cleanable/greenglow,
-/turf/simulated/floor/plating,
-/area/ruin/unpowered/syndicate_space_base/bar)
 "Ez" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -5928,7 +5923,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "Lb" = (
-/obj/structure/grille/fence,
+/obj/effect/spawner/random_spawners/grille_maybe,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "Le" = (
@@ -8401,7 +8396,7 @@ JY
 Lj
 Kr
 JY
-vC
+ow
 aq
 AV
 AV
@@ -8463,7 +8458,7 @@ HZ
 HZ
 HZ
 dY
-Ew
+ot
 HZ
 gD
 gD
@@ -8772,7 +8767,7 @@ au
 Fs
 KB
 HZ
-kk
+vC
 QJ
 EI
 cO
@@ -8835,7 +8830,7 @@ Fs
 SW
 HZ
 ec
-ot
+kk
 gD
 cL
 Fd
@@ -9158,9 +9153,9 @@ nY
 wC
 fL
 Fl
-gm
-Og
-Og
+dh
+qW
+gD
 AV
 AV
 AV
@@ -9220,9 +9215,9 @@ ZJ
 jI
 kw
 Fl
-ow
-vj
-Og
+pD
+aF
+gD
 AV
 AV
 AV
@@ -9282,10 +9277,10 @@ Fl
 Fl
 Fl
 Fl
+gD
+zv
+gD
 Og
-Lb
-Og
-AV
 AV
 AV
 AV
@@ -9345,9 +9340,9 @@ HF
 TS
 NJ
 Og
+vj
 MB
-Og
-AV
+bE
 AV
 AV
 AV
@@ -9408,8 +9403,8 @@ tQ
 YC
 Og
 MB
+Lb
 Og
-AV
 AV
 AV
 AV
@@ -9470,8 +9465,8 @@ Li
 Ge
 Og
 ij
+vj
 Og
-AV
 AV
 AV
 AV
@@ -9532,7 +9527,7 @@ vL
 AA
 Og
 rX
-Og
+Lb
 Og
 AV
 AV
@@ -9718,7 +9713,7 @@ Xb
 Xb
 xB
 gm
-MB
+vj
 Og
 AV
 AV

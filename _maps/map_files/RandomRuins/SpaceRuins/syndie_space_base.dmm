@@ -74,7 +74,9 @@
 /obj/item/clothing/shoes/galoshes,
 /obj/item/clothing/shoes/galoshes,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "aj" = (
@@ -102,7 +104,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "ar" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -450,6 +454,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/firealarm{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -512,6 +521,11 @@
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "whiteblue"
@@ -524,7 +538,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "cO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -542,7 +558,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "cU" = (
 /obj/structure/table/glass,
@@ -584,16 +602,18 @@
 /area/ruin/unpowered/syndicate_space_base/medbay)
 "di" = (
 /obj/item/storage/part_replacer,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/rack{
+	dir = 8
+	},
 /obj/machinery/power/apc/syndicate{
 	dir = 1;
 	name = "Storage APC";
 	pixel_y = 24
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/rack,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "brown"
@@ -608,9 +628,19 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "dn" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/arrivals)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/main)
 "ds" = (
 /obj/structure/sign/poster/contraband/hacking_guide,
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
@@ -620,9 +650,7 @@
 	pixel_y = 5
 	},
 /obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "dA" = (
 /obj/structure/grille,
@@ -708,10 +736,6 @@
 /obj/effect/spawner/random_spawners/blood_maybe,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/bar)
-"ek" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
 "el" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/monkeycubes/syndicate,
@@ -775,9 +799,15 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "eE" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/virology)
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/main)
 "eN" = (
 /obj/machinery/light{
 	dir = 1;
@@ -824,7 +854,9 @@
 	dir = 1;
 	on = 1
 	},
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whiteblue"
@@ -902,7 +934,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "fw" = (
 /obj/structure/disposalpipe/segment,
@@ -1422,7 +1456,9 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "iv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1509,8 +1545,10 @@
 /obj/item/clothing/shoes/magboots/syndie{
 	pixel_y = 5
 	},
-/obj/structure/rack,
 /obj/item/clothing/shoes/magboots/syndie,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -1620,7 +1658,9 @@
 "jB" = (
 /obj/item/soap/syndie,
 /obj/item/soap/syndie,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "jC" = (
@@ -1662,7 +1702,9 @@
 /obj/item/storage/backpack/satchel,
 /obj/item/storage/backpack/satchel,
 /obj/item/storage/backpack/satchel,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkblue"
@@ -1703,9 +1745,7 @@
 /obj/machinery/alarm/syndicate{
 	pixel_y = 24
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "jX" = (
 /obj/structure/grille/broken,
@@ -1926,7 +1966,9 @@
 	},
 /obj/item/stack/rods/twentyfive,
 /obj/item/stock_parts/cell/hyper,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
@@ -2211,9 +2253,6 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/virology)
 "nA" = (
-/mob/living/simple_animal/chicken{
-	faction = list("neutral","syndicate")
-	},
 /turf/simulated/floor/grass,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "nD" = (
@@ -2247,6 +2286,9 @@
 	pixel_y = 4
 	},
 /obj/structure/rack,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -2279,6 +2321,11 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "nU" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "cmo"
@@ -2806,7 +2853,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "rw" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2852,7 +2901,9 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/effect/decal/cleanable/cobweb2,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "rK" = (
@@ -3421,7 +3472,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "vq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3457,6 +3510,9 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/reagent_dispensers/spacecleanertank{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "vu" = (
@@ -3467,9 +3523,7 @@
 "vv" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/soda/upgraded,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "vw" = (
 /obj/machinery/door/firedoor,
@@ -3536,7 +3590,9 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "vL" = (
@@ -3606,7 +3662,9 @@
 	},
 /obj/item/vending_refill/coffee,
 /obj/item/vending_refill/cola,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "brown"
@@ -3895,7 +3953,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "xG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4120,7 +4180,9 @@
 /obj/item/clothing/suit/hooded/wintercoat/medical,
 /obj/item/clothing/head/beret/med,
 /obj/item/reagent_containers/spray/cleaner,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitegreen"
 	},
@@ -4159,9 +4221,7 @@
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "zG" = (
 /obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "zK" = (
 /obj/structure/cable{
@@ -4246,9 +4306,15 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "Am" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/dormitories)
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/bar)
 "As" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -4729,9 +4795,13 @@
 /turf/simulated/floor/engine,
 /area/ruin/unpowered/syndicate_space_base/testlab)
 "DN" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/testlab)
+/obj/machinery/firealarm{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plating,
+/area/ruin/unpowered/syndicate_space_base/engineering)
 "DP" = (
 /obj/structure/closet/crate/secure/gear{
 	req_access_txt = "150"
@@ -5017,7 +5087,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Fp" = (
 /obj/machinery/light/small{
@@ -5083,7 +5155,9 @@
 /obj/item/storage/bag/trash,
 /obj/item/lightreplacer,
 /obj/item/lightreplacer,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "FW" = (
@@ -5126,7 +5200,9 @@
 "Gd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Ge" = (
 /obj/effect/turf_decal/stripes/line{
@@ -5153,7 +5229,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Go" = (
 /obj/machinery/cooker/deepfryer,
@@ -5265,6 +5343,11 @@
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
+/obj/machinery/firealarm{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -5370,12 +5453,14 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "HF" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/item/clothing/suit/hooded/wintercoat/science,
 /obj/item/clothing/head/beret/sci,
 /obj/structure/rack,
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -5428,6 +5513,22 @@
 	icon_state = "darkbluecorners"
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
+"HT" = (
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science{
+	pixel_y = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurple"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "HU" = (
 /obj/machinery/door/airlock/hatch/syndicate,
 /obj/machinery/door/firedoor,
@@ -5533,7 +5634,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "IZ" = (
 /obj/machinery/atmospherics/binary/circulator,
@@ -5624,9 +5727,7 @@
 	pixel_y = 6
 	},
 /obj/item/clothing/glasses/sunglasses/big,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Jx" = (
 /obj/effect/decal/cleanable/confetti,
@@ -5710,9 +5811,7 @@
 	pixel_y = 24
 	},
 /obj/structure/piano,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Kj" = (
 /obj/machinery/light{
@@ -5948,15 +6047,29 @@
 	},
 /obj/item/clothing/glasses/meson/engine,
 /obj/item/clothing/glasses/meson/engine,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "Lp" = (
-/obj/structure/reagent_dispensers/spacecleanertank,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
+/obj/item/clothing/suit/hooded/wintercoat/science,
+/obj/item/clothing/head/beret/sci,
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurple"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "Ls" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -6139,7 +6252,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Mq" = (
 /obj/item/storage/belt/medical,
@@ -6149,7 +6264,9 @@
 /obj/item/clothing/accessory/stethoscope,
 /obj/item/clothing/glasses/hud/health/night,
 /obj/item/clothing/glasses/hud/health/night,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -6187,8 +6304,10 @@
 /obj/item/clothing/shoes/magboots/syndie{
 	pixel_y = 5
 	},
-/obj/structure/rack,
 /obj/item/clothing/shoes/magboots/syndie,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6245,7 +6364,9 @@
 /obj/item/t_scanner,
 /obj/item/t_scanner,
 /obj/item/t_scanner,
-/obj/structure/rack,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6273,9 +6394,21 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "Ng" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
-/area/ruin/unpowered/syndicate_space_base/bar)
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkblue"
+	},
+/area/ruin/unpowered/syndicate_space_base/dormitories)
 "Ni" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -6363,11 +6496,13 @@
 	pixel_x = -5;
 	pixel_y = 30
 	},
-/obj/structure/rack,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
+/obj/structure/rack{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6592,9 +6727,7 @@
 "PK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "PM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6756,6 +6889,11 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "Rf" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6979,10 +7117,6 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
-"SQ" = (
-/obj/machinery/firealarm/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/cargo)
 "SU" = (
 /obj/structure/table,
 /turf/simulated/floor/plasteel{
@@ -7002,11 +7136,11 @@
 /turf/simulated/floor/grass,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "SX" = (
-/mob/living/simple_animal/chicken{
-	faction = list("neutral","syndicate")
-	},
 /obj/structure/window/basic{
 	dir = 4
+	},
+/mob/living/simple_animal/chicken{
+	faction = list("neutral","syndicate")
 	},
 /turf/simulated/floor/grass,
 /area/ruin/unpowered/syndicate_space_base/bar)
@@ -7152,9 +7286,7 @@
 	},
 /obj/item/paper_bin,
 /obj/structure/table/wood,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "TK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7409,7 +7541,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Wi" = (
 /obj/machinery/kitchen_machine/candy_maker,
@@ -7793,6 +7927,11 @@
 	icon_state = "1-2"
 	},
 /obj/structure/chair/office/dark,
+/obj/machinery/firealarm{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -8421,7 +8560,7 @@ sV
 nf
 HZ
 pp
-Dy
+Am
 lr
 pR
 lr
@@ -8840,7 +8979,7 @@ kh
 bi
 jJ
 uR
-Am
+fF
 fF
 VY
 qz
@@ -8964,7 +9103,7 @@ iT
 yA
 Xh
 zK
-HO
+Ng
 td
 HO
 OY
@@ -9041,10 +9180,10 @@ Op
 Es
 HZ
 Ki
-Dy
+Tw
 du
 iv
-Tw
+Dy
 IA
 WC
 wS
@@ -9103,10 +9242,10 @@ xN
 Wt
 HZ
 jW
-Dy
+Tw
 zG
 iv
-Tw
+Dy
 AU
 uJ
 uI
@@ -9165,10 +9304,10 @@ xN
 SP
 HZ
 Jq
-Dy
+Tw
 PK
 LK
-Ng
+Ll
 SU
 uJ
 uJ
@@ -9178,7 +9317,7 @@ uJ
 HZ
 nd
 cB
-eE
+Fl
 Fl
 Fl
 Fl
@@ -9227,10 +9366,10 @@ Ya
 mi
 HZ
 vv
-Dy
+Tw
 TJ
 LK
-Tw
+Dy
 Le
 Kw
 vk
@@ -9242,8 +9381,8 @@ uk
 mG
 Og
 SO
-nO
-HF
+HT
+Lp
 nR
 NJ
 Og
@@ -9286,8 +9425,8 @@ Em
 Em
 Fu
 PZ
-SP
-SQ
+dn
+DG
 DG
 yG
 dM
@@ -9521,7 +9660,7 @@ fF
 cu
 Tl
 nU
-ek
+Em
 Em
 iZ
 Hv
@@ -9663,7 +9802,7 @@ ma
 El
 uk
 lF
-uk
+eE
 yz
 xg
 Jb
@@ -9725,7 +9864,7 @@ lf
 sR
 lf
 lf
-dn
+yE
 GM
 gZ
 yE
@@ -9738,7 +9877,7 @@ TD
 TD
 TD
 ql
-DN
+TD
 rr
 CM
 ZG
@@ -10093,7 +10232,7 @@ IZ
 cD
 vE
 gu
-Lp
+Em
 vt
 wo
 RH
@@ -10154,7 +10293,7 @@ Lh
 mP
 qF
 qF
-qF
+DN
 Em
 rD
 vK

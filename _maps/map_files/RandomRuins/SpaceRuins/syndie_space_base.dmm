@@ -642,9 +642,15 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "ds" = (
-/obj/structure/sign/poster/contraband/hacking_guide,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_x = -30
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "du" = (
 /obj/item/toy/figure/crew/syndie{
 	pixel_y = 5
@@ -899,7 +905,7 @@
 "fn" = (
 /obj/machinery/vending/syndichem,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
+	name = "north bump";
 	pixel_y = 30
 	},
 /turf/simulated/floor/plasteel{
@@ -1310,9 +1316,21 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "hR" = (
-/obj/structure/extinguisher_cabinet,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/arrivals)
+/obj/item/clothing/suit/hooded/wintercoat/science,
+/obj/item/clothing/head/beret/sci,
+/obj/machinery/firealarm{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurple"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "hS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1631,7 +1649,7 @@
 "jx" = (
 /obj/machinery/vending/syndichem,
 /obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
+	name = "north bump";
 	pixel_y = 30
 	},
 /turf/simulated/floor/plasteel{
@@ -1774,6 +1792,10 @@
 	dir = 1
 	},
 /obj/effect/spawner/random_spawners/cobweb_left_rare,
+/obj/structure/extinguisher_cabinet{
+	name = "north bump";
+	pixel_y = 30
+	},
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "darkblue"
@@ -1916,6 +1938,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "lf" = (
@@ -1955,7 +1980,6 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "lu" = (
-/obj/machinery/vending/coffee/free,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -2036,6 +2060,7 @@
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "lT" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/coffee/free,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "cmo"
@@ -2044,6 +2069,17 @@
 "lU" = (
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
+"lV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet{
+	name = "south bump";
+	pixel_y = -30
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "cmo"
+	},
+/area/ruin/unpowered/syndicate_space_base/dormitories)
 "lZ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -2096,6 +2132,9 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "mq" = (
 /obj/structure/janitorialcart,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkred"
@@ -2633,6 +2672,9 @@
 "pG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -3018,6 +3060,10 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	name = "south bump";
+	pixel_y = -30
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "darkred"
@@ -3809,9 +3855,11 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "wU" = (
-/obj/machinery/vending/wallmed/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/cargo)
+/obj/structure/table/wood,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/bar)
 "wX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4463,10 +4511,6 @@
 	icon_state = "darkblue"
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
-"Bk" = (
-/obj/structure/sign/poster/contraband/random,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
 "Bp" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -4495,6 +4539,10 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet{
+	name = "west bump";
+	pixel_x = -27
+	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "BH" = (
@@ -4640,6 +4688,8 @@
 /area/ruin/unpowered/syndicate_space_base/main)
 "CE" = (
 /obj/structure/table/glass,
+/obj/item/paper_bin,
+/obj/item/pen/red,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitepurple"
@@ -4701,6 +4751,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -4736,6 +4789,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/structure/extinguisher_cabinet{
+	name = "west bump";
+	pixel_x = -27
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -5113,10 +5170,6 @@
 /obj/structure/sign/chemistry,
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/chemistry)
-"Fu" = (
-/obj/machinery/vending/wallmed/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
 "FC" = (
 /obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
@@ -5293,10 +5346,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
-	pixel_y = 30
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -5305,6 +5354,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/extinguisher_cabinet{
+	name = "north bump";
+	pixel_y = 30
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -5513,22 +5566,6 @@
 	icon_state = "darkbluecorners"
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
-"HT" = (
-/obj/item/clothing/glasses/science,
-/obj/item/clothing/glasses/science{
-	pixel_y = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/rack{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel{
-	dir = 8;
-	icon_state = "whitepurple"
-	},
-/area/ruin/unpowered/syndicate_space_base/chemistry)
 "HU" = (
 /obj/machinery/door/airlock/hatch/syndicate,
 /obj/machinery/door/firedoor,
@@ -5883,9 +5920,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Kx" = (
-/obj/machinery/recharge_station,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/machinery/recharge_station/upgraded,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "yellow"
@@ -6055,12 +6092,12 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "Lp" = (
-/obj/item/clothing/suit/hooded/wintercoat/science,
-/obj/item/clothing/head/beret/sci,
-/obj/machinery/firealarm{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
+/obj/item/clothing/glasses/science,
+/obj/item/clothing/glasses/science{
+	pixel_y = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
 	},
 /obj/structure/rack{
 	dir = 8
@@ -6492,16 +6529,16 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/virology)
 "NT" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
-	pixel_y = 30
-	},
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/glasses/welding,
 /obj/structure/rack{
 	dir = 8
+	},
+/obj/structure/extinguisher_cabinet{
+	name = "north bump";
+	pixel_y = 30
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -6853,9 +6890,14 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
 "QM" = (
-/obj/structure/extinguisher_cabinet,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/dormitories)
+/obj/structure/extinguisher_cabinet{
+	name = "north bump";
+	pixel_y = 30
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/unpowered/syndicate_space_base/main)
 "QO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7056,10 +7098,6 @@
 	icon_state = "darkred"
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
-"Sz" = (
-/obj/machinery/vending/wallmed/syndicate,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/arrivals)
 "SE" = (
 /obj/structure/table/glass,
 /obj/item/folder/white,
@@ -7125,6 +7163,7 @@
 /area/ruin/unpowered/syndicate_space_base/bar)
 "SV" = (
 /obj/machinery/bottler,
+/obj/structure/table/wood,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7326,6 +7365,9 @@
 "TR" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_x = 30
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -7568,6 +7610,9 @@
 /area/ruin/unpowered/syndicate_space_base/main)
 "Ws" = (
 /obj/structure/table,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_y = -30
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "cmo"
@@ -7611,6 +7656,9 @@
 "WT" = (
 /obj/machinery/cell_charger,
 /obj/structure/table/reinforced,
+/obj/machinery/vending/wallmed/syndicate{
+	pixel_x = -30
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whiteblue"
@@ -8974,7 +9022,7 @@ AV
 AV
 AV
 AV
-QM
+fF
 kh
 bi
 jJ
@@ -8993,7 +9041,7 @@ nj
 uX
 nj
 nj
-Dy
+wU
 Dy
 Dy
 rw
@@ -9377,12 +9425,12 @@ in
 Go
 Wi
 HZ
-uk
+QM
 mG
 Og
 SO
-HT
 Lp
+hR
 nR
 NJ
 Og
@@ -9423,7 +9471,7 @@ Em
 Em
 Em
 Em
-Fu
+Em
 PZ
 dn
 DG
@@ -9438,7 +9486,7 @@ DG
 DG
 DG
 DG
-wU
+DG
 pG
 pA
 Og
@@ -9597,7 +9645,7 @@ AV
 fF
 IQ
 iM
-lT
+lV
 Em
 hO
 UK
@@ -9665,7 +9713,7 @@ Em
 iZ
 Hv
 Em
-Bk
+Em
 Em
 GA
 bn
@@ -9757,7 +9805,7 @@ Fi
 EP
 Na
 PB
-Na
+ds
 XK
 Na
 kC
@@ -10103,7 +10151,7 @@ AX
 CU
 nm
 Em
-ds
+Em
 Em
 Em
 Em
@@ -10115,7 +10163,7 @@ yE
 yE
 Tr
 sy
-hR
+yE
 yE
 yE
 yE
@@ -10286,7 +10334,7 @@ MC
 Em
 Em
 Em
-Fu
+Em
 kY
 AM
 Lh
@@ -10360,7 +10408,7 @@ Em
 yE
 yE
 yE
-Sz
+yE
 mq
 hr
 BN

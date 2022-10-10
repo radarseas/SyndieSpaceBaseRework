@@ -2186,10 +2186,10 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
 "nu" = (
-/obj/structure/chair/comfy/black{
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/chair/office/dark{
 	dir = 1
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
 "nv" = (
@@ -2362,15 +2362,6 @@
 	pixel_x = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/apc/syndicate{
-	dir = 1;
-	name = "Storage APC";
-	pixel_y = 24
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "brown"
@@ -9418,7 +9409,7 @@ Jm
 Em
 wX
 Wt
-dM
+DG
 oj
 vQ
 Iv

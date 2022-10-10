@@ -726,17 +726,11 @@
 /area/ruin/unpowered/syndicate_space_base/bar)
 "ec" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/firecloset/full,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+/obj/item/flag/syndi,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
-/area/ruin/unpowered/syndicate_space_base/main)
+/area/ruin/unpowered/syndicate_space_base/bar)
 "ei" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random_spawners/blood_maybe,
@@ -967,11 +961,11 @@
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "fE" = (
-/mob/living/simple_animal/bunny{
-	faction = list("neutral","syndicate")
-	},
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/item/twohanded/required/kirbyplants{
+	icon_state = "plant-22"
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -1004,7 +998,7 @@
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "fP" = (
 /obj/effect/mob_spawn/human/spacebase_syndicate{
-	dir = 8
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
 	dir = 9;
@@ -1261,10 +1255,6 @@
 	icon_state = "neutralfull"
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
-"hG" = (
-/obj/structure/sign/poster/contraband/grey_tide,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/engineering)
 "hK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -1505,6 +1495,7 @@
 /obj/item/pen,
 /obj/item/paper_bin,
 /obj/structure/table/reinforced,
+/obj/item/stamp/syndicate,
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
 "iG" = (
@@ -2007,8 +1998,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "ly" = (
-/obj/item/storage/box/zipties,
 /obj/structure/table/glass,
+/obj/item/hand_labeler,
+/obj/item/storage/box/zipties,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitegreen"
@@ -2140,10 +2132,6 @@
 	icon_state = "darkred"
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
-"mu" = (
-/obj/structure/sign/poster/official/anniversary_vintage_reprint,
-/turf/simulated/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/unpowered/syndicate_space_base/dormitories)
 "mB" = (
 /obj/structure/cable{
 	d2 = 2;
@@ -2154,7 +2142,6 @@
 	name = "Telecomms APC";
 	pixel_y = 24
 	},
-/obj/item/stamp/syndicate,
 /obj/structure/table/reinforced,
 /obj/effect/spawner/random_spawners/cobweb_right_rare,
 /turf/simulated/floor/plasteel{
@@ -2343,6 +2330,7 @@
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "nR" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/firecloset/full,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -3152,10 +3140,8 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "te" = (
-/obj/item/twohanded/required/kirbyplants{
-	icon_state = "plant-22"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/cigarette/syndicate/free,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -3856,6 +3842,7 @@
 /area/ruin/unpowered/syndicate_space_base/bar)
 "wU" = (
 /obj/structure/table/wood,
+/obj/item/storage/box/donkpockets,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -4283,7 +4270,7 @@
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "zL" = (
 /obj/effect/mob_spawn/human/spacebase_syndicate{
-	dir = 8
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -6410,7 +6397,7 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "MV" = (
 /obj/effect/mob_spawn/human/spacebase_syndicate{
-	dir = 8
+	dir = 4
 	},
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -6518,9 +6505,7 @@
 	pixel_x = -2;
 	pixel_y = 5
 	},
-/obj/item/hand_labeler,
 /obj/item/pen/red,
-/obj/item/restraints/handcuffs,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/glass,
 /turf/simulated/floor/plasteel{
@@ -7373,6 +7358,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "TS" = (
+/obj/structure/closet/firecloset/full,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -7441,6 +7427,9 @@
 "Vd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
+	},
+/mob/living/simple_animal/bunny{
+	faction = list("neutral","syndicate")
 	},
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
@@ -8661,7 +8650,7 @@ fF
 fF
 fF
 fF
-mu
+fF
 zq
 nj
 nj
@@ -8929,7 +8918,7 @@ HZ
 Fs
 SW
 HZ
-ec
+tv
 kk
 gD
 cL
@@ -8983,7 +8972,7 @@ SV
 xr
 zS
 GK
-Ll
+ec
 ui
 zj
 ku
@@ -10766,7 +10755,7 @@ AV
 AV
 Em
 Pp
-hG
+Em
 KL
 Em
 Hc

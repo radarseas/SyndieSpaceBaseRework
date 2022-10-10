@@ -2697,6 +2697,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "qQ" = (
@@ -6336,7 +6337,8 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/flag/syndi,
+/obj/structure/table/wood,
+/obj/machinery/computer/library,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},

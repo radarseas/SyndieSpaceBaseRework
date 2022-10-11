@@ -667,9 +667,9 @@
 "dE" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/closet,
-/obj/item/clothing/under/mime,
 /obj/item/clothing/mask/gas/mime,
 /obj/item/clothing/shoes/black,
+/obj/item/clothing/under/rank/civilian/mime,
 /obj/item/storage/backpack/mime,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/medbay)
@@ -702,34 +702,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "dS" = (
-<<<<<<< HEAD=======/obj/item/extinguisher{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/extinguisher{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/extinguisher{
-	pixel_x = 1;
-	pixel_y = -1
-	},
-/obj/item/flashlight{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/flashlight{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/flashlight{
-	pixel_x = 1;
-	pixel_y = -1
-	},
-/obj/structure/rack{
-	dir = 8
-	},
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -1521,18 +1494,14 @@
 "iF" = (
 /obj/item/pen,
 /obj/item/paper_bin,
-<<<<<<< HEAD/obj/structure/table/reinforced,
+/obj/structure/table/reinforced,
 /obj/item/stamp/syndicate,
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/telecomms)
 "iG" = (
 /obj/machinery/door/airlock/hatch/syndicate,
-=======/obj/item/stamp/syndicate,
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/area/ruin/unpowered/syndicate_space_base/telecomms,
 /turf/simulated/floor/plating,
-/turf/simulated/floor/plasteel{
-	icon_state = "dark"
-	})
+/area/ruin/unpowered/syndicate_space_base/telecomms)
 "iH" = (
 /obj/machinery/atmospherics/unary/thermomachine/heater,
 /turf/simulated/floor/plating,
@@ -1743,12 +1712,13 @@
 /obj/item/storage/backpack/satchel,
 /obj/item/storage/backpack/satchel,
 /obj/structure/rack{
-	dir = 8======="jO" = (/obj/structure/chair/stool/bar{dir = 1
+	dir = 8
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "dark"
+	dir = 8;
+	icon_state = "darkblue"
 	},
-/area/ruin/unpowered/syndicate_space_base/bar)
+/area/ruin/unpowered/syndicate_space_base/dormitories)
 "jN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2452,10 +2422,7 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/cargo)
 "oj" = (
-<<<<<<< HEAD/obj/structure/closet/crate/secure/gear{
-	req_access_txt = "150"
-	},
-=======>>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/obj/item/storage/box/donkpockets{
+/obj/item/storage/box/donkpockets{
 	pixel_x = -2;
 	pixel_y = 6
 	},
@@ -2466,19 +2433,10 @@
 	pixel_x = 2
 	},
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< HEAD=======/obj/machinery/power/apc/syndicate{
-	dir = 1;
-	name = "Storage APC";
-	pixel_y = 24
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
 /obj/structure/rack{
 	dir = 8
 	},
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "brown"
 	},
@@ -3597,7 +3555,7 @@
 "vv" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/soda/upgraded,
-<<<<<<< HEAD/turf/simulated/floor/carpet/red,
+/turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "vw" = (
 /obj/machinery/door/firedoor,
@@ -3605,7 +3563,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-=======>>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/main)
@@ -5420,6 +5378,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
+"GV" = (
+/obj/machinery/vending/boozeomat,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/unpowered/syndicate_space_base/bar)
 "GW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/twohanded/required/kirbyplants{
@@ -5549,28 +5513,21 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "HL" = (
-<<<<<<< HEAD/obj/structure/closet/crate/secure/gear{
+/obj/structure/closet/crate/secure/gear{
 	req_access_txt = "150"
 	},
-=======/obj/item/storage/box/stockparts/deluxe,
-/obj/item/storage/box/stockparts/deluxe,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/obj/item/circuitboard/gibber,
+/obj/item/circuitboard/gibber,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-<<<<<<< HEAD/obj/machinery/light/small{
+/obj/machinery/light/small{
 	dir = 8
 	},
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/stockparts/deluxe,
-=======/obj/structure/rack{
-	dir = 8
-	},
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -6040,11 +5997,10 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/chemistry)
 "Le" = (
-<<<<<<< HEAD/obj/structure/table,
+/obj/structure/table,
 /obj/item/clothing/suit/chef,
 /obj/item/clothing/head/chefhat,
-=======/obj/machinery/vending/boozeomat,
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
@@ -6185,10 +6141,7 @@
 /area/ruin/unpowered/syndicate_space_base/main)
 "LK" = (
 /obj/structure/chair/stool/bar{
-	dir = 1<<<<<<< HEAD=======
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "floorgrime">>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb
+	dir = 1
 	},
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
@@ -6643,7 +6596,6 @@
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "OE" = (
-/obj/item/clothing/under/rank/scientist,
 /obj/item/clothing/head/collectable/petehat,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/plating,
@@ -7216,10 +7168,7 @@
 /turf/simulated/floor/grass,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Tc" = (
-<<<<<<< HEAD/obj/structure/closet/crate/secure/gear{
-	req_access_txt = "150"
-	},
-=======>>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/obj/item/storage/box/donkpockets{
+/obj/item/storage/box/donkpockets{
 	pixel_x = -2;
 	pixel_y = 6
 	},
@@ -7941,16 +7890,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-<<<<<<< HEAD/obj/machinery/light/small{
+/obj/machinery/light/small{
 	dir = 8
 	},
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
 /obj/structure/rack,
-=======/obj/structure/rack{
-	dir = 8
-	},
->>>>>>> 3958de2de43e19e4b26a08bb5788ce57597d82eb/turf/simulated/floor/plasteel{
+/turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
 	},
@@ -9274,7 +9220,7 @@ Tw
 du
 iv
 Dy
-Kw
+GV
 WC
 wS
 fb

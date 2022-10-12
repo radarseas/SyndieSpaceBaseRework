@@ -10,7 +10,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
+	dir = 10
 	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/poddoor{
@@ -35,7 +35,7 @@
 /area/ruin/unpowered/syndicate_space_base/testlab)
 "ac" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
+	dir = 10
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -356,6 +356,7 @@
 /area/ruin/unpowered/syndicate_space_base/arrivals)
 "cb" = (
 /obj/item/autopsy_scanner,
+/obj/item/book/manual/detective,
 /obj/item/detective_scanner{
 	pixel_x = 5
 	},
@@ -919,7 +920,7 @@
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "fu" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
+	dir = 10
 	},
 /obj/machinery/chem_master,
 /turf/simulated/floor/plasteel{
@@ -1245,6 +1246,7 @@
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
+/obj/item/book/manual/wiki/hacking,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -1557,6 +1559,9 @@
 /obj/item/clothing/shoes/magboots/syndie,
 /obj/structure/rack{
 	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -1976,14 +1981,14 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "lv" = (
+/obj/structure/rack{
+	dir = 8
+	},
 /obj/item/stack/sheet/cardboard{
 	amount = 3
 	},
 /obj/item/stack/rods/twentyfive,
 /obj/item/stock_parts/cell/hyper,
-/obj/structure/rack{
-	dir = 8
-	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
@@ -1999,8 +2004,8 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "ly" = (
 /obj/structure/table/glass,
+/obj/item/clipboard,
 /obj/item/hand_labeler,
-/obj/item/storage/box/zipties,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitegreen"
@@ -2148,6 +2153,17 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/telecomms)
+"mF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurplefull"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "mG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -2330,7 +2346,9 @@
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "nR" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -3039,6 +3057,16 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/arrivals)
+"st" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurplefull"
+	},
+/area/ruin/unpowered/syndicate_space_base/chemistry)
 "sy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -3675,6 +3703,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/book/manual/atmospipes,
+/obj/structure/rack,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "wc" = (
@@ -3821,7 +3851,7 @@
 	dir = 4;
 	initialize_directions = 11
 	},
-/obj/effect/decal/warning_stripes/north,
+/obj/effect/turf_decal/caution/red,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
 "wP" = (
@@ -4145,6 +4175,15 @@
 	icon_state = "dark"
 	},
 /area/ruin/unpowered/syndicate_space_base/cargo)
+"yP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/holosign_creator/atmos,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "yellow"
+	},
+/area/ruin/unpowered/syndicate_space_base/engineering)
 "yV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4916,7 +4955,7 @@
 /area/ruin/unpowered/syndicate_space_base/main)
 "EA" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 6
+	dir = 10
 	},
 /obj/machinery/power/terminal{
 	dir = 1
@@ -5077,6 +5116,8 @@
 	name = "Virology APC";
 	pixel_y = 24
 	},
+/obj/structure/rack,
+/obj/item/storage/box/zipties,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitegreen"
@@ -5142,6 +5183,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/structure/closet/firecloset/full,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whitepurple"
@@ -5246,7 +5288,7 @@
 /area/ruin/unpowered/syndicate_space_base/bar)
 "Ge" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
+	dir = 10
 	},
 /obj/machinery/chem_master,
 /obj/effect/decal/cleanable/dirt,
@@ -5713,7 +5755,7 @@
 /obj/machinery/atmospherics/unary/portables_connector{
 	dir = 4
 	},
-/obj/effect/decal/warning_stripes/north,
+/obj/effect/turf_decal/caution/red,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
 "Jh" = (
@@ -5857,6 +5899,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/closet/firecloset/full,
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "whitepurple"
@@ -6332,6 +6375,9 @@
 /obj/structure/rack{
 	dir = 8
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -6482,9 +6528,7 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "NJ" = (
 /obj/machinery/chem_heater,
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
+/obj/effect/turf_decal/bot,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "whitepurple"
@@ -6596,8 +6640,9 @@
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "OE" = (
-/obj/item/clothing/head/collectable/petehat,
 /obj/effect/decal/cleanable/blood,
+/obj/item/clothing/under/rank/scientist,
+/obj/item/clothing/head/collectable/petehat,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/dormitories)
 "OG" = (
@@ -6701,10 +6746,10 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "Pq" = (
 /obj/structure/table,
-/obj/item/holosign_creator/atmos,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/book/manual/wiki/engineering_construction,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "yellow"
@@ -6748,6 +6793,7 @@
 "PK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
+/obj/item/book/manual/barman_recipes,
 /turf/simulated/floor/carpet/red,
 /area/ruin/unpowered/syndicate_space_base/bar)
 "PM" = (
@@ -7141,6 +7187,7 @@
 /area/ruin/unpowered/syndicate_space_base/main)
 "SU" = (
 /obj/structure/table,
+/obj/item/book/manual/wiki/chef_recipes,
 /turf/simulated/floor/plasteel{
 	icon_state = "cafeteria"
 	},
@@ -7357,7 +7404,9 @@
 	},
 /area/ruin/unpowered/syndicate_space_base/bar)
 "TS" = (
-/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "whitepurple"
@@ -7468,7 +7517,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/warning_stripes/north,
+/obj/effect/turf_decal/caution/red,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered/syndicate_space_base/main)
 "Vy" = (
@@ -7492,7 +7541,7 @@
 /area/ruin/unpowered/syndicate_space_base/engineering)
 "VH" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8
+	dir = 10
 	},
 /obj/machinery/power/smes/engineering{
 	charge = 0
@@ -7896,6 +7945,7 @@
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
 /obj/structure/rack,
+/obj/item/storage/box/beakers/bluespace,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "brown"
@@ -9481,13 +9531,13 @@ Og
 CE
 YC
 YC
-YC
+st
 YC
 fe
 CE
 YC
 YC
-tQ
+mF
 YC
 Og
 MB
@@ -9643,7 +9693,7 @@ iZ
 uz
 nI
 CG
-uF
+yP
 Dv
 Em
 GJ
